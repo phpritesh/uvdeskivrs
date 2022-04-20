@@ -1,0 +1,14 @@
+security:
+    providers:
+        uv_ivrs_credentials:
+            id: Dic\UVDesk\IvrsBundle\Providers\ApiCredentials
+    
+    firewalls:
+        uvdesk_api:
+            pattern: /ivrs
+            anonymous: true
+            provider: uv_ivrs_credentials
+
+            guard:
+                authenticators: 
+                    Dic\UVDesk\IvrsBundle\Security\Guards\IVRSAPIGuard: Dic\UVDesk\IvrsBundle\Security\Guards\IVRSAPIGuard

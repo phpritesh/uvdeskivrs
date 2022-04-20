@@ -1,0 +1,4 @@
+uvdesk_ivrs_bundle_api_calllists_v1.0_fetch_calllists:
+    path:       /ivrs/calllists
+    controller: Dic\UVDesk\IvrsBundle\API\Calllists::fetchCalllists
+    methods:    [GET]

@@ -1,0 +1,5 @@
+uvdesk_ivrs_bundle_api_user_routing_resources_v1.0:
+    resource: "users.yaml"
+
+uvdesk_ivrs_bundle_api_calllist_routing_resources_v1.0:
+    resource: "calllists.yaml"

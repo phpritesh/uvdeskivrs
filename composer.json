@@ -1,0 +1,26 @@
+{
+    "name": "uvdesk/ivrs-bundle",
+    "description": "Easily integrate with your community helpdesk system using the uvdesk ivrs bundle.",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ritesh Kumar",
+            "email": "phpritesh@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2.5 || ^8.0",
+        "uvdesk/composer-plugin": "^1.1",
+        "uvdesk/core-framework": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dic\\UVDesk\\IvrsBundle\\": ""
+        }
+    },
+    "extra": {
+        "uvdesk-package-extension": "Dic\\UVDesk\\IvrsBundle\\Package\\PackageConfiguration"
+    },
+    "minimum-stability": "stable"
+}

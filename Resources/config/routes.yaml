@@ -1,0 +1,11 @@
+uvdesk_ivrs_bundle_private_routing_resources:
+    resource: "routes/private.yaml"
+    prefix:   /{_locale}/member/
+    requirements:
+        _locale: '%app_locales%'
+    defaults:
+        _locale: '%locale%'
+
+uvdesk_ivrs_bundle_api_routing_resources_v1.0:
+    resource: "routes/api/v1.0/routes.yaml"
+    prefix:   /ivrs/v1/
